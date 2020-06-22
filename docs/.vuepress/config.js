@@ -17,20 +17,12 @@ module.exports = {
         sidebarDepth: 3,
         nav: [ // 导航栏配置
             {
-                text: '首页',
-                link: '/'
-            },
-            {
                 text: '指南',
                 link: '/guide/'
             },
             {
-                text: '了解更多',
+                text: '前端',
                 items: [{
-                        text: 'Java',
-                        link: '/java/'
-                    },
-                    {
                         text: 'Vue',
                         link: '/vue/'
                     },
@@ -41,28 +33,53 @@ module.exports = {
                 ]
             },
             {
+                text: '后端',
+                items: [{
+                        text: 'Java',
+                        link: '/java/'
+                    },
+                    {
+                        text: 'Spring',
+                        link: '/spring/'
+                    },
+                    {
+                        text: 'MyBatis',
+                        link: '/mybatis/'
+                    },
+                    {
+                        text: 'Netty',
+                        link: '/netty/'
+                    },
+
+                ],
+            },
+            {
                 text: 'Github',
                 link: 'https://www.github.com/zhuangchongyi/blog'
-            },
+            }
 
         ],
         sidebar: {
-            '/guide/': [{
-                    title: '指南',
+            '/java/': [{
+                    title: 'Java基础',
                     collapsable: false,
                     children: [
-                        'document/introduce',
+                        '',
+                        'basics/doc1',
+                        'basics/doc2',
+                        'basics/doc3',
+                        'basics/doc4'
                     ]
                 },
                 {
-                    title: '深入',
+                    title: 'JVM',
                     collapsable: false,
                     children: [
-                        'document/thorough',
+                        'jvm/',
+                        'jvm/doc1'
                     ]
                 }
             ]
-
         }
     }
 };

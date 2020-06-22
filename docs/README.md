@@ -1,15 +1,15 @@
 ---
 home: true
-description: 记录所学知识的点点滴滴
+description: 记录我的点点滴滴
 heroImage: /head.jpg
-actionText: 快速前往→
-actionLink: /blog/
+actionText: 开启旅程→
+actionLink: /guide/
 features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
+- title: 目标
+  details: 瞄准天上的星星，或许你永远也射不到，但却比你瞄准树梢射得高远
+- title: 信心
+  details: 请必须要有自信，你就是一道风景，没必要在别人风景里面仰视
+- title: 拼搏
+  details: 磨练，使人难以忍受，使人步履维艰，但它能使强者站得更挺，走得更稳，产生更强的斗志
 footer: MIT Licensed | Copyright ©2020-present zhuangchongyi
 ---
