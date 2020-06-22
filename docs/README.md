@@ -1,8 +1,8 @@
 ---
 home: true
-tagline: 我的博客
-heroImage: /logo.png
-actionText: 快速上手 →
+description: 记录所学知识的点点滴滴
+heroImage: /head.jpg
+actionText: 快速前往→
 actionLink: /blog/
 features:
 - title: 简洁至上
